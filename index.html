@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Entendo o DOM (Document Object Model)</title>
+  </head>
+  <body>
+      <div class="container">
+          <h1><time>00:00:01</time></h1>
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+          <button id="reset">Reset</button>
+      </div>
+      <input type="text" id="input_text">
+
+
+      <section>
+        <h2>HTML FORMULARIO</h2>
+        <form id="formulario" action="">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="">
+            <span id="msg-vld-fname" style="color: red;display: none;"></span>
+            <br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="">
+            <span id="msg-vld-lname" style="color: red;display: none;"></span>
+            <br><br>
+            <label for="lsexo">Sexo:</label><br>
+            <select name="lsexo" id="lsexo">
+              <option value="selecione">Selecione</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+            </select>
+            <span id="msg-vld-lsexo" style="color: red;display: none;"></span>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+      </section>
+
+      <!--<script src="seletorDom.js"></script>
+      <script src="eventos.js"></script>
+      <script src="popups.js"></script>
+      <script src="validForm.js"></script>-->
+      <script src="storage.js"></script>
+
+  </body>
+  </html>
